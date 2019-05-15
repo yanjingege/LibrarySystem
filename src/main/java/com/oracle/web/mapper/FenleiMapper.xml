@@ -57,4 +57,14 @@
     select fid, fname
     from fenlei
   </select>
+  
+  
+  	<!-- 第二种查询 -->
+	<select id="selectAllWithOneSQL" resultMap="FenleiResultMap">
+		select * from fenlei where fid=#{fid}
+	</select>
+	<resultMap type="Fenlei" id="FenleiResultMap">
+		<id column="fid" jdbcType="INTEGER" property="fid" />
+    <result column="fname" jdbcType="VARCHAR" property="fname" />
+	</resultMap>
 </mapper>

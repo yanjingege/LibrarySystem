@@ -43,4 +43,7 @@ public interface FenleiMapper {
      * @mbg.generated Tue May 07 17:10:48 CST 2019
      */
     int updateByPrimaryKey(Fenlei record);
+
+	
+	List<Fenlei> selectAllWithOneSQL();
 }
