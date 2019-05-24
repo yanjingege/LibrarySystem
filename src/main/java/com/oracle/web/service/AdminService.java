@@ -1,4 +1,4 @@
-package com.oracle.web.service.impl;
+package com.oracle.web.service;
 
 import java.util.List;
 
@@ -11,5 +11,6 @@ public interface AdminService {
 	Admin login(Admin admin);
 
 	Admin queryone(String username);
+
 
 }

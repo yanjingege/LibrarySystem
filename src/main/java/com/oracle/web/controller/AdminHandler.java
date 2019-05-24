@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.oracle.web.bean.Admin;
-import com.oracle.web.service.impl.AdminService;
+import com.oracle.web.service.AdminService;
 
 @Controller
 @Scope(value="prototype")
@@ -27,6 +27,8 @@ public class AdminHandler{
     public String add(Admin admin){
 		
 		adminService.save(admin);
+		
+		System.out.println(admin);
 		
 		return "redirect:/login.jsp";
 	}
@@ -66,7 +68,7 @@ public class AdminHandler{
 		
 			}else{
 				
-				response.getWriter().write("{\"valid\":\"true\"}");//不存在
+				response.getWriter().write("{\"valid\":\"true\"}");//涓嶅瓨鍦�
 			}
 		
 		return NONE;

@@ -4,14 +4,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<link rel="stylesheet" href="bootstrap/css/bootstrap.css" />
-<link rel="stylesheet" type="text/css"
-	href="bootstrap/css/bootstrapValidator.css" />
-<script type="text/javascript" src="bootstrap/js/jquery.js"></script>
-<script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
-<script type="text/javascript" src="bootstrap/js/bootstrapValidator.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link
+	href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
+	rel="stylesheet">
+<script
+	src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
+<script
+	src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
 <title>注册</title>
 
 <div class="container">
@@ -28,14 +29,15 @@
 
 	<div class="col-sm-4">
 
-		<input type="text" class="form-control" id="name">
+		<input type="text" class="form-control" id="name
+						name="name">
 
 	</div>
 
 </div>
 
 <div class="form-group">
-	<label for="touxiang">;&nbsp;&nbsp;&nbsp;&nbsp;头像</label> <input type="file" id="touxiang" >
+	<label for="touxiang">;&nbsp;&nbsp;&nbsp;&nbsp;头像</label> <input type="file" id="touxiang">
 	<p class="help-block">请选择图片</p>
 </div>
 
@@ -78,7 +80,7 @@
 
 		<div class="col-sm-offset-4 col-sm-4">
 
-			<button type="submit" class="btn btn-primary btn-lg">注册</button>
+			<button type="submit" class="btn btn-primary">注册</button>
 
 		</div>
 
@@ -87,7 +89,7 @@
 	</div>
 	<div class="col-sm-offset-4 col-sm-4">
 
-		<a href="login.jsp"><font size="2" color="black">已是会员？立即登录</font></a>
+		<a href="login.jsp"><font size="2" color="black">还不是会员？立即注册</font></a>
 
 	</div>
 

@@ -12,10 +12,10 @@
 <script type="text/javascript" src="bootstrap/js/jquery.js"></script>
 <script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
 <script type="text/javascript" src="bootstrap/js/bootstrapValidator.js"></script>
-<title>注册</title>
+<title>修改</title>
 
 <div class="container">
-	<h1 align="center">图书管理系统———注册页面</h1>
+	<h1 align="center">图书管理系统———修改信息页面</h1>
 
 	<hr width="1000px">
 
@@ -78,7 +78,7 @@
 
 		<div class="col-sm-offset-4 col-sm-4">
 
-			<button type="submit" class="btn btn-primary btn-lg">注册</button>
+			<button type="submit" class="btn btn-primary btn-lg">修改</button>
 
 		</div>
 
@@ -87,7 +87,7 @@
 	</div>
 	<div class="col-sm-offset-4 col-sm-4">
 
-		<a href="login.jsp"><font size="2" color="black">已是会员？立即登录</font></a>
+		<a href="login.jsp"><font size="2" color="black">返回</font></a>
 
 	</div>
 
