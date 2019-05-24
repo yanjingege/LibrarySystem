@@ -147,7 +147,7 @@
 					<webApp>${basedir}/target/ssm-crud</webApp>
 					<webAppConfig>
 						<!-- 访问路径 根路径访问，演示/test4又是什么情况 -->
-						<contextPath>/ssm-crud</contextPath>
+						<contextPath>/bookmanager</contextPath>
 					</webAppConfig>
 					<connectors>
 						<connector implementation="org.mortbay.jetty.nio.SelectChannelConnector">
